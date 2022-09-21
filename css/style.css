@@ -1,0 +1,274 @@
+/*commoncode start*/
+/*commoncode end*/
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family:'playfair display',serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 24px;
+}
+/*header start*/
+/*header end*/
+header{
+	 padding: 25px 0;
+    /*border-bottom: 1px solid #626262;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 13px;
+    width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	    width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+    padding: 1px 5px;
+    display: inline-block;
+	text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+    
+ }
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #b4ad9e;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b-content{}
+.b-content img{
+	width: 100%;
+}
+/*banner end*/
+/*perfact start*/
+.perfact{
+	padding: 100px 0 0px;
+	/*border: 1px solid black;*/
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+
+}
+.p-content{}
+.c_tag{
+	margin: 0;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+
+}
+.c_tital{
+	margin: 15px 0 25px;
+	font-size: 30px;
+   font-weight: 400;
+   line-height: 30px;
+
+}
+.c_text{
+	margin: 0;
+}
+.mg-45{
+	margin-bottom: 45px;
+}
+/*perfact end*/
+/*blog start*/
+.blog{
+    padding: 20px 0 120px;
+	/*border: 1px solid red;*/
+}
+.b_contents{
+	overflow: hidden;
+}
+.s-blog{
+	padding-top:80px;
+    width: 46%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.s-blog:nth-child(even){
+   margin-left: 8%;
+}
+.s-img{
+	padding-top:80px;
+	margin-bottom: 18px;
+}
+.s-img img{
+	width: 100%;
+}
+/*blog end*/
+/*newsletter start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.singup{
+	text-align: center;
+}
+.s_h1{
+	margin-top: 0;
+   margin-bottom: 70px;
+   font-size: 30px;
+   font-weight: 400;
+   color: #333333;
+
+}
+.s_form{
+	position: relative;
+	width: 400px;
+    margin: 0 auto;
+
+}
+.s_form input{
+	font-family:'playfair display',serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+
+}
+.s_form input:focus{
+	outline: none;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 18px;
+   right: 0px;
+}
+.s_form button:focus{
+	outline: none;
+}
+.s_form button img{}
+
+/*newsletter end*/
+/*blog2 start*/
+/*blog2 end*/
+/*button start*/
+.blog2{}
+.load{
+	 text-align: center;
+    margin: 150px 0 50px;
+}
+.load button{
+	 width: 160px;
+    height: 60px;
+    font-family: 'playfair display',serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: white;
+    border: 1px solid #626262;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: .33s;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+
+}
+/*button end*/
+/*footer start*/
+footer{
+	overflow: hiddden;
+	padding: 20px 30px;
+	
+
+}
+.f_left{
+	width: 50%;
+	float: left;
+}
+.f_left ul{
+
+}
+.f_left ul li{
+	 list-style: none;
+}
+.f_left ul li a{
+	text-decoration: none;
+	float: left;
+	color: #000000;
+	padding: 0 10px;
+	transition: .33s;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.f_left ul li a:hover{
+	color:#626262 ;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.f_right{
+	width: 40%;
+   float: right;
+}
+.f_right ul{
+	float: right;
+}
+.f_right ul li{
+      display: inline-block;
+      list-style: none;
+
+}
+.f_right ul li span{
+	color: #000000;
+}
+.f_right ul li a{
+	text-decoration: none;
+	float: left;
+	padding: 0 10px;
+
+}
+.f_right ul li:last-child a{
+	padding-right:0;
+}
+
+/*footer end*/
